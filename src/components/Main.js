@@ -33,11 +33,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            My Name is Melissa Bredekamp. I was born in South Africa and now live in Austria. I speak three languages: English, Afrikaans and German. I am currently learning coding at UpLeveled. check out my <a href="#work">awesome work</a>.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -50,19 +46,19 @@ class Main extends React.Component {
             lectus. Pellentesque habitant morbi tristique senectus et netus et
             malesuada fames ac turpis egestas. In non lorem sit amet elit
             placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            vehicula.ABC
           </p>
           {close}
         </article>
 
         <article
           id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          className={`${this.props.article === 'work' ? 'work' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Resume</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>

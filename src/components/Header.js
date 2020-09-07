@@ -2,15 +2,15 @@ import PropTypes from 'prop-types'
 import React from 'react'
 
 const Header = props => (
-  <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+  <header id="header" style={props.timeout ? { display: 'Portfolio' } : {}}>
     <div className="logo">
       <span className="icon fa-diamond"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Melissa Bredekamp</h1>
         <p>
-          A fully responsive site template designed by{' '}
+          {' '}
           <a href="https://html5up.net">HTML5 UP</a> and released
           <br />
           for free under the{' '}
@@ -23,7 +23,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('Intro')
             }}
           >
             Intro
@@ -41,7 +41,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('about')
+              props.onOpenArticle('About')
             }}
           >
             About
